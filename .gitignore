@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.myenv/
+env/
+myenv/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+*.env
+secrets.json
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright
+pyrightconfig.json
+
+# LangChain-generated outputs (optional)
+*.jsonl
+*.db
+*.sqlite
+*.faiss
+*.pkl
+*.log
+
+# Cache from LangChain or HuggingFace
+.cache/
+huggingface/
+transformers_cache/
+
+# Build / dist folders
+build/
+dist/
+*.egg-info/
+
+# MacOS system files
+.DS_Store
