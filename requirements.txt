@@ -1,5 +1,12 @@
-langchain_openai 
-langchain_core
+langchain==0.1.17
+langchain-core==0.1.49
+langchain-openai==0.1.6
+langchain-community==0.0.36
+langserve==0.0.38
+pydantic==2.7.4
+fastapi==0.111.0
 python-dotenv
 streamlit
-langchain_community
+uvicorn
+sse-starlette
+httpx==0.25.0
